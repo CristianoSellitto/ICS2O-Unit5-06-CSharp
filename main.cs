@@ -12,7 +12,7 @@ class Program
         int numberTwo;
         int timesRan;
         int result = 0;
-      
+
         Console.WriteLine("Enter the first number:");
         while (!int.TryParse(Console.ReadLine(), out numberOne))
         {
